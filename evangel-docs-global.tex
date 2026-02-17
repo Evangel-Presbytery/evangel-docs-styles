@@ -54,6 +54,11 @@
 
 \pagestyle{scrheadings}
 
+% Running header:
+\makeatletter
+\chead{\textls[100]{\MakeUppercase{\@title \par \headmark}}}
+\makeatother
+
 % Continuing footnote rule
 \usepackage[splitrule]{footmisc}
 
