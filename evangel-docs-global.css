@@ -22,11 +22,6 @@ section.level2 > ol > li::before {
     text-align: right;
 }
 
-/* Letter prefix for Preface sections */
-#preface section.level2 > ol > li::before {
-    content: counter(chapter, upper-alpha) "." counter(subsection) ".\00a0";
-}
-
 /*--------------------------------------*/
 
 /* Hide publication meta-data on title page */
